@@ -548,7 +548,8 @@
       "description": "Name of the Container App the Patch is associated.",
       "required": true,
       "type": "string",
-      "pattern": "^[-\\w\\._\\(\\)]+$"
+      "pattern": "^[-\\w\\._\\(\\)]+$",
+      "x-ms-parameter-location": "method"
     }
   }
 }
